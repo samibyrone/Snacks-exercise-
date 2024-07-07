@@ -20,10 +20,7 @@ public class SenderLogisticsServices {
 
 		System.out.println(" Enter your number of delivery. ");
 		int packages  = input.nextInt();
-
-	//	System.out.println(" Amout per percel ");
-	//	amount = input.nextInt();
-
+		
 		for (delivery = 0; delivery <= packages; delivery++) {
 
 			if (packages < 50) {
